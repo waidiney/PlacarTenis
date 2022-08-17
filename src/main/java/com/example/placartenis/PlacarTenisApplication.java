@@ -1,4 +1,4 @@
-package com.example.placartenis.dominio;
+package com.example.placartenis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

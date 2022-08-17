@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="PlacarTenis" target="1.8" />
+      <module name="PlacarTenis" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
