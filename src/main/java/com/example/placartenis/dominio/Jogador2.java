@@ -1,10 +1,13 @@
 package com.example.placartenis.dominio;
 
-public class Jogador {
+public class Jogador2 {
 private String nome;
 
-    public Jogador (String nome) {
+    public Jogador2(String nome) {
         this.nome = nome;
+    }
+
+    public static void imprime() {
     }
 
     public String getNome() {

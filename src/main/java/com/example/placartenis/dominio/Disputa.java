@@ -10,7 +10,6 @@ public class Disputa {
     public double getPlacargeral() {
         return placargeral;
     }
-
     public void setPlacargeral(double placargeral) {
         this.placargeral = placargeral;
     }
