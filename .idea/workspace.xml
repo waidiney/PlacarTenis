@@ -5,21 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8acd80-ba4a-47fd-af3f-cb401b95dca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/PartidaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/PartidaJogador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/response/ConfrontoResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/PartidaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/services/PartidaService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastraJogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/JogadorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/JogadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/JogadorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastraJogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastraJogador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Jogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Jogador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/PartidaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/ConfrontoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/PartidaJogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/ConfrontoJogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/response/ConfrontoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/response/ConfrontoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Confronto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/PartidaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/ConfrontoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/services/PartidaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/services/ConfrontoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/PartidaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/request/PartidaJogador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/response/ConfrontoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/response/ConfrontoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/repositories/PartidaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/services/PartidaService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +161,7 @@
       <workItem from="1660568324468" duration="10274000" />
       <workItem from="1660739091525" duration="189000" />
       <workItem from="1660755572258" duration="2909000" />
-      <workItem from="1660826818354" duration="3458000" />
+      <workItem from="1660826818354" duration="4956000" />
     </task>
     <servers />
   </component>

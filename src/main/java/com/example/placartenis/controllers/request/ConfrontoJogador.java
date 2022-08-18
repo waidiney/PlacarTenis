@@ -1,8 +1,9 @@
 package com.example.placartenis.controllers.request;
 
-public record PartidaJogador(
+public record ConfrontoJogador(
         Long idJogador1,
+        Long pontosJogador1,
         Long idJogador2,
-        Long vitoriaJogador
+        Long pontosJogador2
 ) {
 }

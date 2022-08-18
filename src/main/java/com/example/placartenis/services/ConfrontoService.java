@@ -1,47 +1,48 @@
 package com.example.placartenis.services;
 
-import com.example.placartenis.controllers.request.PartidaJogador;
+import com.example.placartenis.controllers.request.ConfrontoJogador;
 import com.example.placartenis.controllers.response.ConfrontoResponse;
-import com.example.placartenis.dominio.Partida;
+import com.example.placartenis.dominio.Confronto;
 import com.example.placartenis.repositories.JogadorRepository;
-import com.example.placartenis.repositories.PartidaRepository;
+import com.example.placartenis.repositories.ConfrontoRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
-public class PartidaService {
-    private final PartidaRepository partidaRepository;
+public class ConfrontoService {
+    private final ConfrontoRepository confrontoRepository;
     private final JogadorRepository jogadorRepository;
 
-    public PartidaService(PartidaRepository partidaRepository, JogadorRepository jogadorRepository) {
-        this.partidaRepository = partidaRepository;
+    public ConfrontoService(ConfrontoRepository confrontoRepository, JogadorRepository jogadorRepository) {
+        this.confrontoRepository = confrontoRepository;
         this.jogadorRepository = jogadorRepository;
     }
 
 
-    public Partida nova(PartidaJogador partidaJogador) {
+    public Confronto nova(ConfrontoJogador confrontoJogador) {
         final var idJogador1 = jogadorRepository
-                .findById(partidaJogador.idJogador1())
+                .findById(confrontoJogador.idJogador1())
                 .orElseThrow(() -> new RuntimeException("Jogador nao encontrado"));
 
         final var idJogador2 = jogadorRepository
-                .findById(partidaJogador.idJogador2())
+                .findById(confrontoJogador.idJogador2())
                 .orElseThrow(() -> new RuntimeException("Jogador nao encontrado"));
 
-        final var novaPartida = new Partida(
+        final var novaPartida = new Confronto(
                idJogador1.getCodJogador(),
+                confrontoJogador.pontosJogador1(),
                 idJogador2.getCodJogador(),
-                partidaJogador.vitoriaJogador()
+                confrontoJogador.pontosJogador2()
         );
 
-        return partidaRepository.save(novaPartida);
+        return confrontoRepository.save(novaPartida);
 
     }
 
     public List<ConfrontoResponse> listarConfronto() {
-        final var listaConfronto = partidaRepository.findAll();
+        final var listaConfronto = confrontoRepository.findAll();
         List<ConfrontoResponse> confrontoResponses = new ArrayList<>();
         listaConfronto.forEach(confronto -> {
             final var nomeJogador1 = jogadorRepository
@@ -53,12 +54,14 @@ public class PartidaService {
                     .findByCodJogador(confronto.getVitoriaJogador());
 
             confrontoResponses.add(new ConfrontoResponse(
-                    confronto.getIdPartida(),
+                    confronto.getIdConfronto(),
                     confronto.getDataPartida().toString(),
                     confronto.getIdJogador1(),
                     nomeJogador1.getNome(),
+                    confronto.getPontosJogador1(),
                     confronto.getIdJogador2(),
                     nomeJogador2.getNome(),
+                    confronto.getPontosJogador2(),
                     vitoriaDe.getNome()
             ));
         });
