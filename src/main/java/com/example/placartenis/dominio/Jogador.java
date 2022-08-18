@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name = "placar_jogador")
+@Table(name = "jogador_placar")
 public class Jogador implements Serializable {
     private static final long serialVersionUID = 1L;
 
@@ -16,7 +16,6 @@ public class Jogador implements Serializable {
     private String nome;
     @Column
     private Long vitorias;
-
 
     public Jogador() {
     }
@@ -30,6 +29,10 @@ public class Jogador implements Serializable {
     public Jogador(String nome, Long vitorias) {
         this.nome = nome;
         this.vitorias = vitorias;
+    }
+
+    public Jogador(Long codJogador) {
+        this.codJogador = codJogador;
     }
 
     public Long getCodJogador() {

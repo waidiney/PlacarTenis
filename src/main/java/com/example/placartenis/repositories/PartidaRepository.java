@@ -1,10 +1,9 @@
 package com.example.placartenis.repositories;
 
-import com.example.placartenis.dominio.Jogador;
+import com.example.placartenis.dominio.Partida;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface JogadorRepository extends JpaRepository<Jogador, Long> {
-    Jogador findByCodJogador(Long codJogador);
+public interface PartidaRepository extends JpaRepository<Partida, Long> {
 }

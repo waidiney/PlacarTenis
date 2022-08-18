@@ -10,11 +10,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/v1/placar/")
-public class CadastraJogador {
+public class JogadorController {
 
     private final JogadorRepository jogadorRepository;
 
-    public CadastraJogador(JogadorRepository jogadorRepository) {
+    public JogadorController(JogadorRepository jogadorRepository) {
         this.jogadorRepository = jogadorRepository;
     }
 
@@ -30,6 +30,11 @@ public class CadastraJogador {
 
     @GetMapping("/jogador")
     public List<Jogador> listarTodos(){
-        return jogadorRepository.findAll();
+        final var jogadores = jogadorRepository.findAll();
+        if (jogadores.isEmpty()){
+            throw new RuntimeException("Sem jogadores cadastrados");
+        }
+        return jogadores;
+
     }
 }
