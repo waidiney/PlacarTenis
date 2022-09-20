@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  api-placar-tenis:
+    container_name: api-placar-tenis
+    image: api-placar-tenis:0.1
+    ports:
+      - 8085:8089

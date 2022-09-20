@@ -16,7 +16,7 @@ public class CadastrarJogador {
 
     @GetMapping("/nome")
     public String nome(){
-        return "joao";
+        return "";
     }
 
     @PostMapping("/jogadornovo")

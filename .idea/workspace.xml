@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8acd80-ba4a-47fd-af3f-cb401b95dca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastraJogador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/JogadorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/JogadorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/JogadorRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/repositories/JogadorRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastraJogador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/request/JogadorRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
