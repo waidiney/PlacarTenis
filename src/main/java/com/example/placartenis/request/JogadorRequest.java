@@ -1,4 +1,4 @@
-package com.example.placartenis.controllers.request;
+package com.example.placartenis.request;
 
 public record JogadorRequest(
         String nomeJogador,
