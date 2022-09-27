@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8acd80-ba4a-47fd-af3f-cb401b95dca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/StandardError/StandardError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/exception/ExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/exception/JogadorException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/exception/PlacarException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/service/JogadorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlacarTenis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PlacarTenis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/request/JogadorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/request/JogadorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Bola.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Disputa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Pontuacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastrarJogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastrarJogador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/request/JogadorRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Bola.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Disputa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Pontuacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -12,6 +12,7 @@ out/
 .settings
 .springBeans
 .sts4-cache
+/target
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
