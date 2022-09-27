@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f8acd80-ba4a-47fd-af3f-cb401b95dca6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Disputa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Disputa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Partida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/test/Jogadortest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/test/Jogadortest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/test/PartidaTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/test/PartidaTest01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Bola.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Bola.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Disputa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Disputa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Jogador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/dominio/Partida.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/test/Jogadortest01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/test/PartidaTest01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/test/PartidaTest01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +15,35 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="erasmo/feat/board-game" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,35 +57,50 @@
     </option>
   </component>
   <component name="ProjectId" id="2DORohK3T6c7qTXZRdDy9z5kdEt" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;79b8598903f0f411c88d582629c1f4b1&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.placartenis.ExceptionHandler" />
+      <recent name="com.example.placartenis.controllers.request" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.placartenis" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.placartenis.dominio" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Jogadortest01">
-    <configuration name="Jogadortest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.placartenis.test.Jogadortest" />
+  <component name="RunManager" selected="Spring Boot.PlacarTenisApplication">
+    <configuration name="Jogadortest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.placartenis.test.Jogadortest01" />
       <module name="PlacarTenis" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.example.placartenis.test.PartidaTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PartidaTest01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.placartenis.test.PartidaTest01" />
       <module name="PlacarTenis" />
       <extension name="coverage">
@@ -101,7 +127,7 @@
     </configuration>
     <configuration name="PlacarTenisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="PlacarTenis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.placartenis.dominio.PlacarTenisApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.placartenis.PlacarTenisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,7 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Jogadortest01" />
-        <item itemvalue="Application.com.example.placartenis.test.PartidaTest01" />
+        <item itemvalue="Application.PartidaTest01" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +147,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660568323114</updated>
-      <workItem from="1660568324468" duration="13702000" />
+      <workItem from="1660568324468" duration="10274000" />
+      <workItem from="1660739091525" duration="189000" />
+      <workItem from="1660755572258" duration="2417000" />
+      <workItem from="1663761639698" duration="12632000" />
+      <workItem from="1663866033335" duration="8483000" />
+      <workItem from="1663935831930" duration="8092000" />
+      <workItem from="1664192683589" duration="7421000" />
+      <workItem from="1664200721086" duration="3131000" />
     </task>
     <servers />
   </component>

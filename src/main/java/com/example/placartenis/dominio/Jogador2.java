@@ -1,20 +1,46 @@
 package com.example.placartenis.dominio;
 
-public class Jogador2 {
-private String nome;
+import javax.persistence.*;
+import java.io.Serializable;
 
-    public Jogador2(String nome) {
-        this.nome = nome;
+@Entity
+@Table(name = "placar_jogador")
+public class Jogador implements Serializable {
+    private static final long serialVersionUID = 1L;
+
+    @Id
+    @Column(name = "codJogador", nullable = false)
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long codJogador;
+    @Column
+    private String nome;
+    @Column
+    private Long vitorias;
+
+
+    public Jogador() {
     }
 
-    public static void imprime() {
+    public Jogador(Long codJogador, String nome, Long vitorias) {
+        this.codJogador = codJogador;
+        this.nome = nome;
+        this.vitorias = vitorias;
+    }
+
+    public Jogador(String nome, Long vitorias) {
+        this.nome = nome;
+        this.vitorias = vitorias;
+    }
+
+    public Long getCodJogador() {
+        return codJogador;
     }
 
     public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Long getVitorias() {
+        return vitorias;
     }
 }
