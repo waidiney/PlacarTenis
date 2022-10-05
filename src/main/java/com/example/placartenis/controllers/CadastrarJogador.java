@@ -1,14 +1,12 @@
 package com.example.placartenis.controllers;
 
+import com.example.placartenis.dominio.Jogador;
 import com.example.placartenis.exception.JogadorException;
 import com.example.placartenis.request.JogadorRequest;
-import com.example.placartenis.dominio.Jogador;
 import com.example.placartenis.repositories.JogadorRepository;
 import org.springframework.web.bind.annotation.*;
 
-import javax.el.ELException;
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/v1/placartenis")
