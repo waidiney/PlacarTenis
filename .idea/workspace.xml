@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f8acd80-ba4a-47fd-af3f-cb401b95dca6" name="Changes" comment="Adicao end points, Tratamento exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/controllers/CadastrarJogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/placartenis/dominio/Jogador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/placartenis/test/Jogadortest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastrarJogador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/placartenis/controllers/CadastrarJogador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/rank-vitorias" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -168,6 +164,7 @@
       <workItem from="1664200721086" duration="3131000" />
       <workItem from="1664365890367" duration="1645000" />
       <workItem from="1664371525762" duration="8000" />
+      <workItem from="1664985480264" duration="1713000" />
     </task>
     <servers />
   </component>

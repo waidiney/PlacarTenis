@@ -1,4 +1,8 @@
 spring:
+  h2:
+    console.enabled: true
+    console:
+      path: /h2-console
   application:
     name: placar-tenis
 
